@@ -1,0 +1,34 @@
+{
+  "name": "fizzbuzz",
+  "version": "0.0.1",
+  "description": "Classic fizzbuzz program to test candidate's coding ability",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src test",
+    "lint:fix": "./node_modules/.bin/eslint --fix src test",
+    "test": "mocha",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulkitmittal/fizzbuzz.git"
+  },
+  "keywords": [
+    "fizzbuzz",
+    "fizz",
+    "buzz"
+  ],
+  "author": "Pulkit Mittal <pulkithello89@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulkitmittal/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/pulkitmittal/fizzbuzz#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "console": "^0.7.2"
+  }
+}
